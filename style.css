@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 850px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.foto-profil {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.tagline {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+
+.cv-table td:first-child {
+  width: 180px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+
+section {
+  margin-top: 30px;
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+
+.cv-table-bordered {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.cv-table-bordered th,
+.cv-table-bordered td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.cv-table-bordered th {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+
+
+.kontak {
+  background-color: #2c3e50;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.kontak h2, .kontak p {
+  color: white;
+}
+
